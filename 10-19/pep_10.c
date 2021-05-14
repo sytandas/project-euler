@@ -6,7 +6,7 @@ static __inline unsigned max(unsigned a, unsigned b);
 
 int main(void){
 	
-igned grid[20][20] = {
+unsigned grid[20][20] = {
 	    {8,2,22,97,38,15,0,40,0,75,4,5,7,78,52,12,50,77,91,8},
 	    {49,49,99,40,17,81,18,57,60,87,17,40,98,43,69,48,4,56,62,0},
 	    {81,49,31,73,55,79,14,29,93,71,40,67,53,88,30,3,49,13,36,65},
@@ -35,8 +35,7 @@ igned grid[20][20] = {
 	for (i = 0; i < N - 3; i++){
 		for (j = 0; j < N - 3; j++){
 		
-			unsigned h = grid[i][j] * grid[i][j+1] * grid[i][j+2] * grid[i][j+3]
-			unsigned v = grid[j][i] * grid[j+1][i] 
+			unsigned h = grid[i][j] * grid[i][j+1] * grid[i][j+2] * grid[i][j+3];
 			unsigned v = grid[j][i] * grid[j+1][i] * grid[j+2][i] * grid[j+3][i];
 			unsigned d1 = grid[i][j] * grid[i+1][j+1] * grid[i+2][j+2] * grid[i+3][j+3];
 			unsigned d2 = grid[i][N-j-1] * grid[i+1][N-j-2] * grid[i+2][N-j-3] * grid[i+3][N-j-4];
