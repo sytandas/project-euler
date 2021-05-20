@@ -25,7 +25,7 @@ int palindromic_base(int n, int base){
 	const int origin = n;
 
 	while (n){
-		reversed = base * reversed + n%base;
+		reversed = base * reversed + n % base;
 		n /= base;
 	}
 	return origin == reversed;

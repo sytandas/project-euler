@@ -12,12 +12,10 @@ int main(void){
 
 	snprintf(buf, sizeof buf, "%u", i);
 	for (j = 0; buf[j] != 0; j++){
-		
-		s += fact(buf[j] - '0');
-	}
-	if ( i == s){
-
-		sum += s;
+			s += fact(buf[j] - '0');
+	}	
+		if ( i == s){
+			sum += s;
 		}
 	}	
 	
@@ -32,6 +30,7 @@ unsigned fact(unsigned n){
 
 		f *= n--;
 	}
+	
 	return f;
 }
 
