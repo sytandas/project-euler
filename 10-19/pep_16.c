@@ -6,31 +6,22 @@
 
 int main(void){
 	
-	long double j;
-	int i;	
-	char buffer[100000];
-	int sum = 0;
-	j = pow(2, 1000);
-	//printf("%Lf" , j);
-
-		
-	//itoa(j, buffer, 10);
-	snprintf(buffer, 994, "%Lf", j);	
+	double i;
+	double j;	
+	double k = 10;
+	double sum = 0;
+	double rem;
 	
+	i = pow(2, 1000);
+	printf("%lf" , i);
 
+	j = i;
 
+	while (j != 0){
+		rem = fmod(j, k);
+		sum = sum + rem;
+		j = j / 10;
+	}
+	printf("\n%lf", sum);
 	return 0;
 }
-/*
-char * convertNumberIntoArray(unsigned int number) {
-	int length = (int)floor(log10((float)number)) + 1;
-	char * arr = new char[length];
-	int i = 0;
-	do {
-		arr[i] = number % 10;
-		number /= 10;
-		i++;
-	} while (number != 0);
-	return arr;
-}
-*/
