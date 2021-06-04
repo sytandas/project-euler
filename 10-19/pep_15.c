@@ -5,7 +5,6 @@ int main(void)
 {
 	mpz_t n, m;
 
-	    /* calculate 40C20 as 40! / (20! * 20!) */
 	mpz_init(n); mpz_init(m);
 	mpz_fac_ui(n, 40); mpz_fac_ui(m, 20);
 	mpz_mul(m, m, m);
