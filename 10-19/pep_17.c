@@ -50,7 +50,7 @@ int main(void)
   // just 1000
   sum += s1[1] + thousand;
 
-  printf("%u\n", sum);
+  printf("%u \n", sum);
 
   return 0;
 }
