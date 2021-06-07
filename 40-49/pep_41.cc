@@ -16,7 +16,7 @@ struct fun{
 
 static bool isPrime(unsigned n);
 
-int main(){
+int main(void){
 
 	int a[] = {9,8,7,6,5,4,3,2,1};
 	static const size_t N = 9;
