@@ -42,14 +42,12 @@ int main(){
 				if (s[j] != 1487 && s[l] - s[k] == s[k] - s[j]){
 						cout << s[j] << s[k] << s[l] << "\n";
 						}
-						}
-						}
-						}
-						}
-
-	return 0;
+          }						
+        }				
+      }			
+  }
+  return 0;
 }
-
 
 bool is_prime(int n){
 	if (n < 2){
