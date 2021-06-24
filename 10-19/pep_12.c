@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <gmp.h>
 static unsigned divisor(unsigned long n);
 
 int main(void){
