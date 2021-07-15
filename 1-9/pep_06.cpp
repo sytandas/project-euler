@@ -1,26 +1,5 @@
 #include<iostream>
 using namespace std;
-/*
-int main(){
-	int add = 0;
-	for (int i = 0; i <= 10; i++){
-		add = add+i;
-	}
-	cout << add * add << "\n";
-
-return 0;
-}
-*/
-
-/*
-int main(){
-	int add = 0;
-	for(int i = 0; i <= 10; i++){
-		add = add + (i * i);		
-	}
-	cout << add << "\n";
-}
-*/
 
 int main(){
 
@@ -38,3 +17,4 @@ int main(){
 return 0;
 }
 
+// Answer:  25164150

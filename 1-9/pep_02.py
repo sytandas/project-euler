@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+
+import math
+
 def fib():
 	x, y = 0, 1
 	while True:
@@ -15,4 +19,6 @@ def main(seq):
 			break
 		yield number
 
-print sum(even(main(fib())))
+print(sum(even(main(fib()))))
+
+# Answer: 4613732

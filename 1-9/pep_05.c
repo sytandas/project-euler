@@ -1,8 +1,5 @@
-// smallest multiplier - 2520 is the smallest number tht can be divided by each of the numbers 
-//form 1 to 10 without anu remainder, what is the smallest positive number that is evenly 
-//divisible by all the numbers from 1 to 20
-
 #include<stdio.h>
+
 int main(){
 	int x, y, small;
 	x = y = 1;
@@ -25,3 +22,5 @@ int main(){
 	printf("%d", small);
 return 0;
 }
+
+// Answer:  232792560

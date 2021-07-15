@@ -24,3 +24,5 @@ int main(){
 	pythagoreanTriplet(n);
 	return 0;
 }
+
+// Answer:  31875000

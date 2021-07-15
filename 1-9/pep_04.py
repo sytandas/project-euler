@@ -1,5 +1,3 @@
-#largest palindrome made from the prodcut of two 3-digit numbers
-
 #!/usr/bin/env python3
 
 
@@ -31,3 +29,4 @@ def palindrome(n):
 n = 3
 print(palindrome(n)) 
 
+# Answer: 906609
