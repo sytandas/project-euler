@@ -49,3 +49,5 @@ int main(void){
 unsigned is_max(unsigned a, unsigned b){
   return a > b ? a : b;
 }
+
+// Answer:  70600674
